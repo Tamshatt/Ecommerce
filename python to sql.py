@@ -22,6 +22,9 @@ conn = mysql.connector.connect(
 )
 cursor = conn.cursor()
 
+#Folder connecting to CSV files
+folder_path = 'path_to_your_folder'
+
 # Connect to the MySQL database
 conn = mysql.connector.connect(
     host='your_host',
